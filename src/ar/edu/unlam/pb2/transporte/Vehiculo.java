@@ -7,7 +7,6 @@ public abstract class Vehiculo {
 	protected List<Paquete> paquetes = new ArrayList<>();
 	protected Double volumenTotal = 0.0;
 	protected Double pesoTotal = 0.0;
-<<<<<<< HEAD
 	protected int patente = 0;
 	private String nombre = "";
 	
@@ -17,17 +16,12 @@ public abstract class Vehiculo {
 		this.nombre = nombre;
 	}
 	
-=======
-	
-	
->>>>>>> a3211f87b5830f577d4f913fb0f543dc3ef3eb79
 	public abstract Boolean agregar(Paquete paquete, String destino);
 	
 	
 	public Integer getCantidadDePaquetes(){
 		return this.paquetes.size();
 	}
-<<<<<<< HEAD
 
 	public String getNombre() {
 		return nombre;
@@ -37,12 +31,6 @@ public abstract class Vehiculo {
 		return patente;
 	}
 	
-}
-
-=======
 	
 }
 
-
-
->>>>>>> a3211f87b5830f577d4f913fb0f543dc3ef3eb79

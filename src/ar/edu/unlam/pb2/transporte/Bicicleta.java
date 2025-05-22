@@ -7,13 +7,8 @@ public class Bicicleta extends Vehiculo {
 	private String destino;
 
 	
-<<<<<<< HEAD
 	public Bicicleta(int id, String nombre) {
 		super(id, nombre);
-=======
-	public Bicicleta() {
-		super();
->>>>>>> a3211f87b5830f577d4f913fb0f543dc3ef3eb79
 	}
 	
 	
