@@ -7,8 +7,13 @@ public class Auto extends Vehiculo {
 	private List<String> destinos = new ArrayList<>();
 	
 	
+<<<<<<< HEAD
 	public Auto(int patente, String nombre) {
 		super(patente, nombre);
+=======
+	public Auto() {
+		super();
+>>>>>>> a3211f87b5830f577d4f913fb0f543dc3ef3eb79
 	}
 	
 

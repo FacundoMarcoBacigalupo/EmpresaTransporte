@@ -5,13 +5,17 @@ import java.util.List;
 
 public class EmpresaTransporte {
 	private List<Paquete> paquetes;
+<<<<<<< HEAD
 	private List<Vehiculo> vehiculos;
+=======
+>>>>>>> a3211f87b5830f577d4f913fb0f543dc3ef3eb79
 	private Auto auto;
 	private Bicicleta bicicleta;
 	private Camion camion;
 	
 	
 	public EmpresaTransporte() {
+<<<<<<< HEAD
 		this.setPaquetes(new ArrayList<>());
 		this.auto = new Auto(1233, "Audi");
 		this.bicicleta = new Bicicleta(123, "BMX");
@@ -49,6 +53,15 @@ public class EmpresaTransporte {
 		this.vehiculos.add(v);
 		return true;
 	}
+=======
+		this.paquetes = new ArrayList<>();
+		this.auto = new Auto();
+		this.bicicleta = new Bicicleta();
+		this.camion = new Camion();
+	}
+	
+	
+>>>>>>> a3211f87b5830f577d4f913fb0f543dc3ef3eb79
 	
 	
 	

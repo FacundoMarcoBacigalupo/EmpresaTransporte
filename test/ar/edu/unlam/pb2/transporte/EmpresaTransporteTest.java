@@ -18,7 +18,11 @@ public class EmpresaTransporteTest {
 	
 	@Test
 	public void queNoSePuedaCargarMasDeTresDestinos() {
+<<<<<<< HEAD
 		Auto auto = new Auto(1233, "Audi");
+=======
+		Auto auto = new Auto();
+>>>>>>> a3211f87b5830f577d4f913fb0f543dc3ef3eb79
 		Integer cantidadEsperada = 3;
 		Paquete p1 = new Paquete(0.1, 0.1, 0.1, 1.0);
 		Paquete p2 = new Paquete(0.1, 0.1, 0.1, 1.0);
@@ -34,7 +38,11 @@ public class EmpresaTransporteTest {
 	
 	@Test
 	public void queNoSePuedaCargarMasDeTresDestinosDistintos() {
+<<<<<<< HEAD
 		Auto auto = new Auto(1233, "Audi");
+=======
+		Auto auto = new Auto();
+>>>>>>> a3211f87b5830f577d4f913fb0f543dc3ef3eb79
 		Paquete p1 = new Paquete(0.1, 0.1, 0.1, 1.0);
 		Paquete p2 = new Paquete(0.1, 0.1, 0.1, 1.0);
 		Paquete p3 = new Paquete(0.1, 0.1, 0.1, 1.0);
@@ -52,7 +60,11 @@ public class EmpresaTransporteTest {
 	
 	@Test
 	public void queNoSePuedaCargarConPesoExcedidoEnVariosPaquetes() {
+<<<<<<< HEAD
 		Auto auto = new Auto(1233, "Audi");
+=======
+		Auto auto = new Auto();
+>>>>>>> a3211f87b5830f577d4f913fb0f543dc3ef3eb79
 		Paquete p1 = new Paquete(0.5, 0.5, 0.5, 500.0);
 		Paquete p2 = new Paquete(0.5, 0.5, 0.5, 0.01);
 		assertTrue(auto.agregar(p1, "Hurlingham"));	
@@ -63,7 +75,11 @@ public class EmpresaTransporteTest {
 	
 	@Test
 	public void queNoSePuedaSuperarLaCantidadDePaquetesAuto() {
+<<<<<<< HEAD
 		Auto auto = new Auto(1233, "Audi");
+=======
+		Auto auto = new Auto();
+>>>>>>> a3211f87b5830f577d4f913fb0f543dc3ef3eb79
 		Paquete p1 = new Paquete(0.5, 0.5, 0.5, 500.0);
 		Paquete p2 = new Paquete(0.5, 0.5, 0.5, 1.0);
 		
@@ -76,7 +92,11 @@ public class EmpresaTransporteTest {
 	
 	@Test
 	public void queNoSePuedaCargarVolumenExcedidio() {
+<<<<<<< HEAD
 		Bicicleta bici = new Bicicleta(123, "BMX");
+=======
+		Bicicleta bici = new Bicicleta();
+>>>>>>> a3211f87b5830f577d4f913fb0f543dc3ef3eb79
 		Paquete p1 = new Paquete(0.51, 0.5, 0.5, 1.0);
 		assertFalse(bici.agregar(p1, "Ramos"));
 	}
@@ -84,7 +104,11 @@ public class EmpresaTransporteTest {
 
 	@Test
 	public void queNoSePuedaSuperarLaCantidadDePaquetesBici() {
+<<<<<<< HEAD
 		Bicicleta bici = new Bicicleta(123, "BMX");
+=======
+		Bicicleta bici = new Bicicleta();
+>>>>>>> a3211f87b5830f577d4f913fb0f543dc3ef3eb79
 		Integer valorEsperado = 2;
 		Paquete p1 = new Paquete(0.1, 0.1, 0.1, 1.0);
 		Paquete p2 = new Paquete(0.1, 0.1, 0.1, 1.0);
@@ -98,7 +122,11 @@ public class EmpresaTransporteTest {
 	
 	@Test
 	public void queNoSePuedaCargarDestinosDistintos() {
+<<<<<<< HEAD
 		Bicicleta bici = new Bicicleta(123, "BMX");
+=======
+		Bicicleta bici = new Bicicleta();
+>>>>>>> a3211f87b5830f577d4f913fb0f543dc3ef3eb79
 		Paquete p1 = new Paquete(0.1, 0.1, 0.1, 1.0);
 		Paquete p2 = new Paquete(0.1, 0.1, 0.1, 1.0);
 		assertTrue(bici.agregar(p1, "Ramos"));
@@ -108,7 +136,11 @@ public class EmpresaTransporteTest {
 
 	@Test
 	public void queNoSePuedaCargarConPesoExcedido() {
+<<<<<<< HEAD
 		Bicicleta bici = new Bicicleta(123, "BMX");
+=======
+		Bicicleta bici = new Bicicleta();
+>>>>>>> a3211f87b5830f577d4f913fb0f543dc3ef3eb79
 		Paquete p1 = new Paquete(0.5, 0.5, 0.5, 15.1);
 		assertFalse(bici.agregar(p1, "Ramos"));
 	}
@@ -117,7 +149,11 @@ public class EmpresaTransporteTest {
 	
 	@Test
 	public void queNoSePuedaSuperarLaCantidadDePaquetesCamion() {
+<<<<<<< HEAD
 		Camion camion = new Camion(666, "Truck");
+=======
+		Camion camion = new Camion();
+>>>>>>> a3211f87b5830f577d4f913fb0f543dc3ef3eb79
 		Paquete p1 = new Paquete(0.5, 0.5, 0.5, 15000.0);
 		Paquete p2 = new Paquete(0.5, 0.5, 0.5, 2000.0);
 		
@@ -129,7 +165,11 @@ public class EmpresaTransporteTest {
 	
 	@Test
 	public void enviarPaquetesConElCamionADistintosDestinosConDistintoPeso() {
+<<<<<<< HEAD
 		Camion camion = new Camion(666, "Truck");
+=======
+		Camion camion = new Camion();
+>>>>>>> a3211f87b5830f577d4f913fb0f543dc3ef3eb79
 		Paquete p1 = new Paquete(0.5, 0.5, 0.5, 10000.0);
 		Paquete p2 = new Paquete(0.5, 0.5, 0.5, 2000.0);
 		Paquete p3 = new Paquete(0.5, 0.5, 0.5, 1000.0);
@@ -142,6 +182,7 @@ public class EmpresaTransporteTest {
 		assertTrue(camion.agregar(p4, "RamosMejia"));
 	}
 		
+<<<<<<< HEAD
 	
 	
 	
@@ -169,6 +210,8 @@ public class EmpresaTransporteTest {
 		assertFalse(sePudo2);
 	}
 	
+=======
+>>>>>>> a3211f87b5830f577d4f913fb0f543dc3ef3eb79
 }
 
 
